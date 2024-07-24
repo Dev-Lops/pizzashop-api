@@ -1,7 +1,7 @@
-import Elysia, { t } from 'elysia'
 import { db } from '@/db/connection'
 import { authLinks } from '@/db/schema'
 import { createId } from '@paralleldrive/cuid2'
+import Elysia, { t } from 'elysia'
 // import { resend } from '@/mail/client'
 // import { AuthenticationMagicLinkTemplate } from '@/mail/templates/authentication-magic-link'
 import { env } from '@/env'
